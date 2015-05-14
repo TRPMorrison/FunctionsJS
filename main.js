@@ -83,12 +83,19 @@ var greetName = function(name) {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
-var noun;
-var verb;
-var adverb;
-var adjective;
 
 
+var exclamation = prompt("Type in an exclamation word.");
+var adjective1 = prompt("Type an adjective.");
+var classmate = prompt("Enter a classmate's name.");
+var occupation = prompt("Type in an occupation.");
+var adjective2 = prompt("I need one more adjective.");
+var adverb = prompt("Provide an adverb.");
+var holiday = prompt("Enter a holiday.")
 
-///////////////////////////////////////////////////////
-///////////////////////////////////////////////////////
+// "Wow! Coding is harder than I thought.", said Trini. Personally, I think it's better than marketing where I was every Founder's Day.
+var joinString = "exclamation" + "!  " + "Coding is" + "adjective1" + " than I thought, said" + "classmate" + "." + "  But I think it's" + "adjective2" + " than" + "occupation" + " , where I was" + " adverb" + " every" + " holiday" + ".";
+
+function alert(madlib) {
+    console.log(""exclamation" + "!  " + "Coding is" + "adjective1" + " than I thought, said" + "classmate" + "." + "  Personally, I think it is" + "adjective2" + " than" + " occupation" + ", where I was" + " adverb" + " every" + " holiday" + ".";");
+}
