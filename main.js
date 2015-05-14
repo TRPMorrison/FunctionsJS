@@ -42,8 +42,9 @@ function avg(x, y, z) {
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-function getLength(string) {
-  return string;
+var string;
+function (getLength) {
+  return getLength.string
 }
 
 
@@ -57,7 +58,7 @@ function greaterThan(x, y) {
   if (y > x) {
     console.log('True');
   } else {
-    greaterThan = false;
+    console.log('False');
 }};
 
 
@@ -67,11 +68,9 @@ function greaterThan(x, y) {
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-var name = prompt(greetName) {
-  function prompt(greetName)
-  {
-  alert("Hello" + " " + "Name!");
-}};
+var greetName = function(name) {
+  console.log("Hello" + ", " + "name" + "!");
+}
 
 // Q6
 // Write a function called `madlib` that takes
