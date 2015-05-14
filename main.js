@@ -83,6 +83,10 @@ var greetName = function(name) {
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 
+var noun;
+var verb;
+var adverb;
+var adjective;
 
 
 
